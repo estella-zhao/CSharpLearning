@@ -1,0 +1,7 @@
+D:\工作\基础班Vip03\Winform+WPF+上位机直播第三期\20210908就业班03期Course12Linq扩展\Course12LinqToObjects\Course12LinqToObjects\bin\Debug\Course12LinqToObjects.exe.config
+D:\工作\基础班Vip03\Winform+WPF+上位机直播第三期\20210908就业班03期Course12Linq扩展\Course12LinqToObjects\Course12LinqToObjects\bin\Debug\Course12LinqToObjects.exe
+D:\工作\基础班Vip03\Winform+WPF+上位机直播第三期\20210908就业班03期Course12Linq扩展\Course12LinqToObjects\Course12LinqToObjects\bin\Debug\Course12LinqToObjects.pdb
+D:\工作\基础班Vip03\Winform+WPF+上位机直播第三期\20210908就业班03期Course12Linq扩展\Course12LinqToObjects\Course12LinqToObjects\obj\Debug\Course12LinqToObjects.csproj.AssemblyReference.cache
+D:\工作\基础班Vip03\Winform+WPF+上位机直播第三期\20210908就业班03期Course12Linq扩展\Course12LinqToObjects\Course12LinqToObjects\obj\Debug\Course12LinqToObjects.csproj.CoreCompileInputs.cache
+D:\工作\基础班Vip03\Winform+WPF+上位机直播第三期\20210908就业班03期Course12Linq扩展\Course12LinqToObjects\Course12LinqToObjects\obj\Debug\Course12LinqToObjects.exe
+D:\工作\基础班Vip03\Winform+WPF+上位机直播第三期\20210908就业班03期Course12Linq扩展\Course12LinqToObjects\Course12LinqToObjects\obj\Debug\Course12LinqToObjects.pdb
