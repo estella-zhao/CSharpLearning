@@ -1,7 +1,0 @@
-D:\工作\基础班Vip03\Winform+WPF+上位机直播第三期\20210903就业班03期Course11特性\Course11Attribute\Course11Attribute\bin\Debug\Course11Attribute.exe.config
-D:\工作\基础班Vip03\Winform+WPF+上位机直播第三期\20210903就业班03期Course11特性\Course11Attribute\Course11Attribute\bin\Debug\Course11Attribute.exe
-D:\工作\基础班Vip03\Winform+WPF+上位机直播第三期\20210903就业班03期Course11特性\Course11Attribute\Course11Attribute\bin\Debug\Course11Attribute.pdb
-D:\工作\基础班Vip03\Winform+WPF+上位机直播第三期\20210903就业班03期Course11特性\Course11Attribute\Course11Attribute\obj\Debug\Course11Attribute.csproj.AssemblyReference.cache
-D:\工作\基础班Vip03\Winform+WPF+上位机直播第三期\20210903就业班03期Course11特性\Course11Attribute\Course11Attribute\obj\Debug\Course11Attribute.csproj.CoreCompileInputs.cache
-D:\工作\基础班Vip03\Winform+WPF+上位机直播第三期\20210903就业班03期Course11特性\Course11Attribute\Course11Attribute\obj\Debug\Course11Attribute.exe
-D:\工作\基础班Vip03\Winform+WPF+上位机直播第三期\20210903就业班03期Course11特性\Course11Attribute\Course11Attribute\obj\Debug\Course11Attribute.pdb

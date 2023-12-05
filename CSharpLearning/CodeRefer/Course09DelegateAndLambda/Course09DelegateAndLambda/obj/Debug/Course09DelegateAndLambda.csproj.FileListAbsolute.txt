@@ -1,7 +1,0 @@
-D:\工作\基础班Vip03\Winform+WPF+上位机直播第三期\20210827就业班03期Course09委托Lambda\Course09DelegateAndLambda\Course09DelegateAndLambda\bin\Debug\Course09DelegateAndLambda.exe.config
-D:\工作\基础班Vip03\Winform+WPF+上位机直播第三期\20210827就业班03期Course09委托Lambda\Course09DelegateAndLambda\Course09DelegateAndLambda\bin\Debug\Course09DelegateAndLambda.exe
-D:\工作\基础班Vip03\Winform+WPF+上位机直播第三期\20210827就业班03期Course09委托Lambda\Course09DelegateAndLambda\Course09DelegateAndLambda\bin\Debug\Course09DelegateAndLambda.pdb
-D:\工作\基础班Vip03\Winform+WPF+上位机直播第三期\20210827就业班03期Course09委托Lambda\Course09DelegateAndLambda\Course09DelegateAndLambda\obj\Debug\Course09DelegateAndLambda.csproj.AssemblyReference.cache
-D:\工作\基础班Vip03\Winform+WPF+上位机直播第三期\20210827就业班03期Course09委托Lambda\Course09DelegateAndLambda\Course09DelegateAndLambda\obj\Debug\Course09DelegateAndLambda.csproj.CoreCompileInputs.cache
-D:\工作\基础班Vip03\Winform+WPF+上位机直播第三期\20210827就业班03期Course09委托Lambda\Course09DelegateAndLambda\Course09DelegateAndLambda\obj\Debug\Course09DelegateAndLambda.exe
-D:\工作\基础班Vip03\Winform+WPF+上位机直播第三期\20210827就业班03期Course09委托Lambda\Course09DelegateAndLambda\Course09DelegateAndLambda\obj\Debug\Course09DelegateAndLambda.pdb

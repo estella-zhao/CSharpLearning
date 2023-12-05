@@ -1,9 +1,0 @@
-D:\工作\公开课\公开课02\学生管理系统\SMNew\SM.Models\bin\Debug\SM.Models.dll
-D:\工作\公开课\公开课02\学生管理系统\SMNew\SM.Models\bin\Debug\SM.Models.pdb
-D:\工作\公开课\公开课02\学生管理系统\SMNew\SM.Models\bin\Debug\Common.dll
-D:\工作\公开课\公开课02\学生管理系统\SMNew\SM.Models\bin\Debug\Common.pdb
-D:\工作\公开课\公开课02\学生管理系统\SMNew\SM.Models\obj\Debug\SM.Models.csproj.AssemblyReference.cache
-D:\工作\公开课\公开课02\学生管理系统\SMNew\SM.Models\obj\Debug\SM.Models.csproj.CoreCompileInputs.cache
-D:\工作\公开课\公开课02\学生管理系统\SMNew\SM.Models\obj\Debug\SM.Models.csproj.CopyComplete
-D:\工作\公开课\公开课02\学生管理系统\SMNew\SM.Models\obj\Debug\SM.Models.dll
-D:\工作\公开课\公开课02\学生管理系统\SMNew\SM.Models\obj\Debug\SM.Models.pdb

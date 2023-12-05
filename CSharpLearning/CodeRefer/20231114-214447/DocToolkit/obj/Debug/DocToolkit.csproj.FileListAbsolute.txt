@@ -1,6 +1,0 @@
-\\Mac\下载\ToLearn\Code\VS2022\CSharp\20231114-214447\DocToolkit\bin\Debug\DocToolkit.dll
-\\Mac\下载\ToLearn\Code\VS2022\CSharp\20231114-214447\DocToolkit\bin\Debug\DocToolkit.pdb
-\\Mac\下载\ToLearn\Code\VS2022\CSharp\20231114-214447\DocToolkit\obj\Debug\DocToolkit.csproj.AssemblyReference.cache
-\\Mac\下载\ToLearn\Code\VS2022\CSharp\20231114-214447\DocToolkit\obj\Debug\DocToolkit.csproj.CoreCompileInputs.cache
-\\Mac\下载\ToLearn\Code\VS2022\CSharp\20231114-214447\DocToolkit\obj\Debug\DocToolkit.dll
-\\Mac\下载\ToLearn\Code\VS2022\CSharp\20231114-214447\DocToolkit\obj\Debug\DocToolkit.pdb
