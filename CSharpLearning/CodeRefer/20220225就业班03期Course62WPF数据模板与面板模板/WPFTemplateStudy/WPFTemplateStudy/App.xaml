@@ -1,0 +1,17 @@
+﻿<Application x:Class="WPFTemplateStudy.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WPFTemplateStudy"
+             StartupUri="DataTemplateWindow.xaml">
+    <Application.Resources>
+
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="res/RadioButtonDic.xaml"/>
+                <ResourceDictionary Source="res/CheckBoxDic.xaml"/>
+                <ResourceDictionary Source="res/TreeViewStyleDic.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+
+    </Application.Resources>
+</Application>

@@ -1,0 +1,10 @@
+D:\工作\基础班Vip03\Winform+WPF+上位机直播第三期\20220223就业班03期Course60WPF资源样式\WPFCourseResourceAndStlye\WPFCustRes\bin\Debug\WPFCustRes.dll
+D:\工作\基础班Vip03\Winform+WPF+上位机直播第三期\20220223就业班03期Course60WPF资源样式\WPFCourseResourceAndStlye\WPFCustRes\bin\Debug\WPFCustRes.pdb
+D:\工作\基础班Vip03\Winform+WPF+上位机直播第三期\20220223就业班03期Course60WPF资源样式\WPFCourseResourceAndStlye\WPFCustRes\obj\Debug\Themes\resDictionary02.baml
+D:\工作\基础班Vip03\Winform+WPF+上位机直播第三期\20220223就业班03期Course60WPF资源样式\WPFCourseResourceAndStlye\WPFCustRes\obj\Debug\WPFCustRes_MarkupCompile.cache
+D:\工作\基础班Vip03\Winform+WPF+上位机直播第三期\20220223就业班03期Course60WPF资源样式\WPFCourseResourceAndStlye\WPFCustRes\obj\Debug\WPFCustRes.g.resources
+D:\工作\基础班Vip03\Winform+WPF+上位机直播第三期\20220223就业班03期Course60WPF资源样式\WPFCourseResourceAndStlye\WPFCustRes\obj\Debug\WPFCustRes.Properties.Resources.resources
+D:\工作\基础班Vip03\Winform+WPF+上位机直播第三期\20220223就业班03期Course60WPF资源样式\WPFCourseResourceAndStlye\WPFCustRes\obj\Debug\WPFCustRes.csproj.GenerateResource.cache
+D:\工作\基础班Vip03\Winform+WPF+上位机直播第三期\20220223就业班03期Course60WPF资源样式\WPFCourseResourceAndStlye\WPFCustRes\obj\Debug\WPFCustRes.csproj.CoreCompileInputs.cache
+D:\工作\基础班Vip03\Winform+WPF+上位机直播第三期\20220223就业班03期Course60WPF资源样式\WPFCourseResourceAndStlye\WPFCustRes\obj\Debug\WPFCustRes.dll
+D:\工作\基础班Vip03\Winform+WPF+上位机直播第三期\20220223就业班03期Course60WPF资源样式\WPFCourseResourceAndStlye\WPFCustRes\obj\Debug\WPFCustRes.pdb

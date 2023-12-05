@@ -1,0 +1,75 @@
+﻿<Window x:Class="WPFCourseResourceAndStlye.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFCourseResourceAndStlye"
+        xmlns:sys1="clr-namespace:System;assembly=mscorlib"
+        mc:Ignorable="d"
+        Title="资源与样式" Height="274.8" Width="381.6">
+    <Window.Resources>
+        <!--窗口资源-->
+        <!--纯色画刷-->
+
+        <sys1:String x:Key="userName">lycchun</sys1:String>
+        <sys1:String x:Key="phone">13678900986</sys1:String>
+
+        <Style x:Key="labelStyle01" >
+            <Setter Property="Control.Foreground" Value="Green"/>
+            <Setter Property="Control.Background" Value="{StaticResource lblBgBrush}" />
+            <Setter Property="Control.FontFamily" Value="宋体"/>
+            <Setter Property="Control.BorderBrush" >
+                <Setter.Value>
+                    <LinearGradientBrush  StartPoint="0,0" EndPoint="1,0">
+                        <GradientStop Color="Red" Offset="0.2"/>
+                        <GradientStop Color="Green" Offset="0.9"/>
+                    </LinearGradientBrush>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Control.BorderThickness" Value="1"/>
+        </Style>
+        
+        <ControlTemplate x:Key="btnTemp01" TargetType="{x:Type ButtonBase}">
+            <Border x:Name="border" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" SnapsToDevicePixels="True">
+                <ContentPresenter x:Name="contentPresenter" ContentTemplate="{TemplateBinding ContentTemplate}" Content="{TemplateBinding Content}" ContentStringFormat="{TemplateBinding ContentStringFormat}" Focusable="False" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+            </Border>
+            <ControlTemplate.Triggers>
+                <Trigger Property="Button.IsDefaulted" Value="True">
+                    <Setter Property="BorderBrush" TargetName="border" Value="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}"/>
+                </Trigger>
+                <!--<Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" TargetName="border" Value="#FFBEE6FD"/>
+                    <Setter Property="BorderBrush" TargetName="border" Value="#FF3C7FB1"/>
+                </Trigger>-->
+                <!--<Trigger Property="IsPressed" Value="True">
+                    <Setter Property="Background" TargetName="border" Value="#FFC4E5F6"/>
+                    <Setter Property="BorderBrush" TargetName="border" Value="#FF2C628B"/>
+                </Trigger>-->
+                <Trigger Property="ToggleButton.IsChecked" Value="True">
+                    <Setter Property="Background" TargetName="border" Value="#FFBCDDEE"/>
+                    <Setter Property="BorderBrush" TargetName="border" Value="#FF245A83"/>
+                </Trigger>
+                <Trigger Property="IsEnabled" Value="False">
+                    <Setter Property="Background" TargetName="border" Value="#FFF4F4F4"/>
+                    <Setter Property="BorderBrush" TargetName="border" Value="#FFADB2B5"/>
+                    <Setter Property="Foreground" Value="#FF838383"/>
+                </Trigger>
+            </ControlTemplate.Triggers>
+        </ControlTemplate>
+    </Window.Resources>
+    <Grid>
+        <Label Content="用户名：" HorizontalAlignment="Left" Margin="62,43,0,0" VerticalAlignment="Top" Height="28" Width="64"  Style="{StaticResource labelStyle02}" IsEnabled="False"/>
+        <Button Content="确定" HorizontalAlignment="Left" Margin="67,174,0,0" VerticalAlignment="Top" Width="65" Height="30"  Click="Button_Click" Style="{StaticResource btnStyle01}" Template="{DynamicResource btnTemp01}">
+            <Button.Resources>
+                <!--控件资源-->
+                <SolidColorBrush x:Key="brushRed" Color="White"/>
+            </Button.Resources>
+        </Button>
+        <Label Content="电   话：" HorizontalAlignment="Left" Margin="62,84,0,0" VerticalAlignment="Top" Height="28" Width="64" Style="{StaticResource labelStyle03}"/>
+        <Button Content="取消" HorizontalAlignment="Left" Margin="190,174,0,0" VerticalAlignment="Top" Width="64" Height="30" />
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="131,43,0,0" TextWrapping="Wrap" Text="{StaticResource userName}"  VerticalAlignment="Top" Width="160" Foreground="{StaticResource brushPurple}" />
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="131,88,0,0" TextWrapping="Wrap" Text="{StaticResource phone}" VerticalAlignment="Top" Width="160" />
+        <Label Content="年龄：" HorizontalAlignment="Left" Margin="62,121,0,0" VerticalAlignment="Top" Height="28" Width="64" Style="{x:Null}"/>
+
+    </Grid>
+</Window>
