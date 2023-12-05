@@ -1,0 +1,15 @@
+﻿<Window x:Class="WPFCourse03.PathWIndow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFCourse03"
+        mc:Ignorable="d"
+        Title="PathWIndow" Height="450" Width="800">
+    <Grid>
+        <Path Stroke="Red" StrokeThickness="2"  Data="M 30,30 H 100 V100 H 30 z"/>
+        <Path Stroke="Green" StrokeThickness="2"  Data="M 200,30 L 300,80 180,200 z"/>
+        <Path Fill="White" Stroke="Purple" StrokeThickness="2"  Data="M 300,300 H 400 C 460,500 500,200 600,290 V  200 L 450,260 300,200 z"/>
+        <Path Stroke="Blue" StrokeThickness="0" Data="M 200,100 A 50,50 45 0 1 100,300  " Fill="White"/>
+    </Grid>
+</Window>

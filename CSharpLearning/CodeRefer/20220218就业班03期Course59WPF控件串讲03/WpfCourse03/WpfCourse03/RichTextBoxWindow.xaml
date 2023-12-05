@@ -1,0 +1,44 @@
+﻿<Window x:Class="WpfCourse03.RichTextBoxWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfCourse03"
+        mc:Ignorable="d"
+        Title="RichTextBoxWindow" Height="450" Width="800">
+    <Grid>
+        <RichTextBox Name="rtbContent"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="738" Height="218" Margin="29,127,0,0" IsDocumentEnabled="True">
+            <FlowDocument PagePadding="10" FlowDirection="LeftToRight" FontSize="14">
+                <Paragraph TextIndent="20" Foreground="Green">
+                    <Run Text="这里是客户端就业学习班"/>
+                    <Run Text="我们的官网是："/>
+                    <Hyperlink  Click="Hyperlink_Click">
+                        <Run Text="朝夕官网"/>
+                    </Hyperlink>
+                    <InlineUIContainer>
+                        <Button Content="获取" Width="60"/>
+                    </InlineUIContainer>
+                </Paragraph>
+                <BlockUIContainer>
+                    <Image Source="imgs/05.jpg" Width="50" Height="30" HorizontalAlignment="Left"/>
+                </BlockUIContainer>
+            </FlowDocument>
+        </RichTextBox>
+        <TextBox Name="txtContent" HorizontalAlignment="Left" Height="23" Margin="40,369,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="532"/>
+        <Button x:Name="btnGet" Content="获取" HorizontalAlignment="Left" Margin="45,19,0,0" VerticalAlignment="Top" Width="75" Click="btnGet_Click" />
+        <Button x:Name="btnInsert" Content="插入" HorizontalAlignment="Left" Margin="45,55,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="btnCopy" Content="复制" HorizontalAlignment="Left" Margin="145,19,0,0" VerticalAlignment="Top" Width="75" Click="btnCopy_Click" />
+        <Button x:Name="btnPaste" Content="粘贴" HorizontalAlignment="Left" Margin="255,19,0,0" VerticalAlignment="Top" Width="75" Click="btnPaste_Click" />
+        <Button x:Name="btnUpdate" Content="替换" HorizontalAlignment="Left" VerticalAlignment="Top" Width="80" Height="24" Margin="145,50,0,0" Click="btnUpdate_Click" />
+        <Button x:Name="btnDelete" Content="删除" HorizontalAlignment="Left" VerticalAlignment="Top" Width="80" Height="30" Margin="250,46,0,0" Click="btnDelete_Click"  />
+        <Button x:Name="btnLoadTextFile" Content="加载文本文件" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="30" Margin="582,8,0,0" Click="btnLoadTextFile_Click"   />
+        <Button x:Name="btnLoadText" Content="加载文本" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="30" Margin="380,56,0,0" Click="btnLoadText_Click" />
+        <Button x:Name="btnLoadFile" Content="加载文件" HorizontalAlignment="Left" VerticalAlignment="Top" Width="80" Height="30" Margin="497,56,0,0" Click="btnLoadFile_Click"  />
+        <Button x:Name="btnSaveFile" Content="保存到文件" HorizontalAlignment="Left" VerticalAlignment="Top" Width="80" Height="30" Margin="602,56,0,0" Click="btnSaveFile_Click"  />
+        <Button Content="字体变大" HorizontalAlignment="Left" Margin="45,95,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1" />
+        <Button x:Name="BoldBtn" Content="加粗" HorizontalAlignment="Left" Margin="363,19,0,0" VerticalAlignment="Top" Width="75" Click="BoldBtn_Click" />
+        <Button x:Name="centerAlign" Content="居中对齐" HorizontalAlignment="Left" Margin="461,19,0,0" VerticalAlignment="Top" Width="75" Click="centerAlign_Click" />
+        <TextBox x:Name="tbText" HorizontalAlignment="Left" Height="23" Margin="160,95,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="addUI" Content="插入文本" Width="80"  HorizontalAlignment="Left" VerticalAlignment="Top" Margin="602,95,0,0" Click="addUI_Click"/>
+    </Grid>
+</Window>

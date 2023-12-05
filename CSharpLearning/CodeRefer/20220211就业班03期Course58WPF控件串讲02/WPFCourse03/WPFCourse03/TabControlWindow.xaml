@@ -1,0 +1,38 @@
+﻿<Window x:Class="WPFCourse03.TabControlWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFCourse03"
+        mc:Ignorable="d"
+        Title="TabControlWindow" Height="450" Width="800" Loaded="Window_Loaded">
+    <Grid Margin="0,0,12.6,2">
+        <TabControl Name="tabPages" HorizontalAlignment="Left" Height="280" Margin="86,49,0,0" VerticalAlignment="Top" Width="641" TabStripPlacement="Bottom">
+            <TabItem Header="用户管理" Name="tab1">
+                <Grid Background="#FFE5E5E5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="85*"/>
+                        <ColumnDefinition Width="478*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label Content="Label" HorizontalAlignment="Left" Margin="53,40,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+                    <TextBox HorizontalAlignment="Left" Height="23" Margin="60.5,40,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+                    <Label Content="Label" HorizontalAlignment="Left" Margin="53,88,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+                    <TextBox HorizontalAlignment="Left" Height="23" Margin="60.5,88,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+
+                </Grid>
+            </TabItem>
+            <TabItem Header="角色管理" Name="tab2">
+                <Grid Background="#FFE5E5E5">
+                    <Label Content="Label" HorizontalAlignment="Left" Margin="53,40,0,0" VerticalAlignment="Top"/>
+                    <TextBox HorizontalAlignment="Left" Height="23" Margin="145,40,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+                    <Label Content="Label" HorizontalAlignment="Left" Margin="53,88,0,0" VerticalAlignment="Top"/>
+                    <TextBox HorizontalAlignment="Left" Height="23" Margin="145,88,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+                </Grid>
+            </TabItem >
+            <TabItem Header="权限管理" Name="tab3">
+                <Frame  Name="frmePage"/>
+            </TabItem>
+        </TabControl>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="299,27,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+    </Grid>
+</Window>

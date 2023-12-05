@@ -1,0 +1,143 @@
+﻿<Window x:Class="WpfCourse03.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfCourse03"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="490.385" Width="911.923" Loaded="Window_Loaded">
+    <Window.Resources>
+        <RoutedUICommand x:Key="cmdUser"/>
+    </Window.Resources>
+    <Window.InputBindings>
+        <KeyBinding Command="{StaticResource cmdUser}" Gesture="Ctrl+U"/>
+    </Window.InputBindings>
+    <Window.CommandBindings>
+        <CommandBinding Command="{StaticResource cmdUser}" Executed="miUser_Click"/>
+    </Window.CommandBindings>
+    <Grid>
+        <Menu HorizontalAlignment="Left" Height="30" Margin="47,10,0,0" VerticalAlignment="Top" Width="647">
+            <MenuItem Header="系统管理(_S)"  IsSubmenuOpen="False">
+                <MenuItem Name="miUser" Header="用户管理" InputGestureText="Ctrl+U"  Command="{StaticResource cmdUser}" />
+                <MenuItem Header="角色管理" InputGestureText="Ctrl+R" />
+                <MenuItem Header="菜单管理"  InputGestureText="Ctrl+M">
+                    <MenuItem.Icon>
+                        <Image Source="imgs/05.jpg"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+            <MenuItem Header="基础资料">
+                <MenuItem Header="商品信息管理"/>
+                <MenuItem Header="仓库信息管理"/>
+                <MenuItem Header="单位信息管理"/>
+            </MenuItem>
+
+        </Menu>
+        <Menu Name="menus" HorizontalAlignment="Left" Height="37" Margin="47,45,0,0" VerticalAlignment="Top" Width="578"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="561,225,0,0" VerticalAlignment="Top" Width="83" Height="31"  >
+            <Button.ContextMenu>
+                <ContextMenu    HorizontalOffset="10" VerticalOffset="10">
+                    <MenuItem Name="setBg" Header="设置背景色" />
+                </ContextMenu>
+            </Button.ContextMenu>
+        </Button>
+        <TreeView Name="tvList" HorizontalAlignment="Left" Height="195" Margin="82,200,0,0" VerticalAlignment="Top" Width="174">
+            <TreeViewItem Header="进销存系统" IsExpanded="True"  >                <TreeViewItem Header="系统管理" IsExpanded="True">                    <TreeViewItem Header="角色管理" IsSelected="True" />                    <TreeViewItem Header="用户管理"/>                </TreeViewItem>                <TreeViewItem Header="业务管理" >                    <TreeViewItem Header="采购入库"/>                    <TreeViewItem Header="销售出库"/>                </TreeViewItem>                <TreeViewItem Header="查询中心" >                    <TreeViewItem Header="采购查询">                        <TreeViewItem Header="按商品采购统计"/>                        <TreeViewItem Header="按仓库采购统计"/>                        <TreeViewItem Header="按供应商采购统计"/>                    </TreeViewItem>                    <TreeViewItem Header="销售查询"/>                </TreeViewItem>            </TreeViewItem>
+        </TreeView>
+        <TreeView Name="tvList2" HorizontalAlignment="Left" Height="195" Margin="296,200,0,0" VerticalAlignment="Top" Width="195"/>
+        <ToolBar HorizontalAlignment="Left" Height="38" Margin="96,87,0,0" VerticalAlignment="Top" Width="248">
+            <Button Content="Button" />
+            <Button Content="Button" />
+
+            <Button Content="Button" />
+            <Separator Margin="10,2"/>
+            <RadioButton>
+                <RadioButton.Content>
+                    <Rectangle Fill="Red" Width="15" Height="15" ToolTip="red"/>
+                </RadioButton.Content>
+            </RadioButton>
+            <RadioButton>
+                <RadioButton.Content>
+                    <Rectangle Fill="Yellow" Width="15" Height="15" ToolTip="red"/>
+                </RadioButton.Content>
+            </RadioButton>
+            <Separator Margin="10,2"/>
+            <RadioButton>
+                <RadioButton.Content>
+                    <Rectangle Fill="Green" Width="15" Height="15" ToolTip="red"/>
+                </RadioButton.Content>
+            </RadioButton>
+        </ToolBar>
+        <ToolBarTray HorizontalAlignment="Left" Height="57" Margin="96,138,0,0" VerticalAlignment="Top" Width="647" Orientation="Horizontal" IsLocked="True">
+            <ToolBar Band="0"  BandIndex="0">
+                <Button Content="新建"/>
+                <Button Content="保存"/>
+            </ToolBar>
+            <ToolBar Band="0"  BandIndex="1">
+                <Button Content="复制"/>
+                <Button Content="粘贴"/>
+                <Button Content="剪切"/>
+            </ToolBar>
+            <ToolBar Band="1" BandIndex="1">
+                <RadioButton ToolTip="Red" GroupName="r" >
+                    <RadioButton.Content>
+                        <Rectangle Width="15" Height="15" Fill="Red"/>
+                    </RadioButton.Content>
+                </RadioButton>
+                <RadioButton ToolTip="Yellow"  GroupName="r" >
+                    <RadioButton.Content>
+                        <Rectangle Width="15" Height="15" Fill="Yellow"/>
+                    </RadioButton.Content>
+                </RadioButton>
+                <RadioButton ToolTip="Green"  GroupName="r" >
+                    <RadioButton.Content>
+                        <Rectangle Width="15" Height="15" Fill="Green"/>
+                    </RadioButton.Content>
+                </RadioButton>
+                <RadioButton ToolTip="Purple"  GroupName="r" >
+                    <RadioButton.Content>
+                        <Rectangle Width="15" Height="15" Fill="Purple"/>
+                    </RadioButton.Content>
+                </RadioButton>
+            </ToolBar>
+            <ToolBar Band="1"  BandIndex="0">
+                <Button Content="居中"/>
+                <Button Content="居左"/>
+                <Button Content="居右"/>
+            </ToolBar>
+        </ToolBarTray>
+
+        <StatusBar HorizontalAlignment="Left" Height="33" VerticalAlignment="Bottom" Width="819">
+            <StatusBar.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="1.5*" />
+                            <ColumnDefinition  />
+                        </Grid.ColumnDefinitions>
+                    </Grid>
+                </ItemsPanelTemplate>
+            </StatusBar.ItemsPanel>
+            <StatusBarItem Grid.Column="0">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="登录者："/>
+                    <Label Name="lblLoginName" Content="admin"/>
+                </StackPanel>
+            </StatusBarItem>
+            <StatusBarItem Grid.Column="1">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="登录时间："/>
+                    <Label Name="lblLoginTime" Content="2022-01-24"/>
+                </StackPanel>
+            </StatusBarItem>
+            <StatusBarItem Grid.Column="2" HorizontalAlignment="Left">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="版权："/>
+                    <Label Name="lblBanQuan" Content="朝夕教育所有"/>
+                </StackPanel>
+            </StatusBarItem>
+        </StatusBar>
+
+    </Grid>
+</Window>

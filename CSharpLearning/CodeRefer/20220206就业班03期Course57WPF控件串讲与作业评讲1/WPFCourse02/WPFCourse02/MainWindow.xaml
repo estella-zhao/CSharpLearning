@@ -1,0 +1,38 @@
+﻿<Window x:Class="WPFCourse02.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFCourse02"
+        mc:Ignorable="d"
+        Title="基本控件使用" Height="450" Width="800">
+    <Border BorderBrush="Orange" BorderThickness="2" CornerRadius="2,2,16,16" Margin="10">
+        <Grid>
+            <Label  HorizontalAlignment="Left" Margin="49,32,0,0" VerticalAlignment="Top" Height="27" Width="106">
+                <Label.Content>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="用户名" Margin="0,0,10,0"/>
+                        <TextBlock Text="用户名"/>
+                    </StackPanel>
+
+                </Label.Content>
+            </Label>
+            <Button Content="Button" HorizontalAlignment="Left" Margin="34,290,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.503,2.11" Click="Button_Click" />
+            <PasswordBox HorizontalAlignment="Left" Margin="160,32,0,0" VerticalAlignment="Top" Width="168" Height="27" Password="123456" PasswordChar="*"/>
+            <TextBox HorizontalAlignment="Left" Height="23" Margin="380,32,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="145"/>
+            <CheckBox Content="CheckBox" HorizontalAlignment="Left" Margin="94,99,0,0" VerticalAlignment="Top" Height="21" Width="77" RenderTransformOrigin="1.804,0.646"/>
+            <CheckBox Content="CheckBox" HorizontalAlignment="Left" Margin="200,99,0,0" VerticalAlignment="Top"/>
+            <CheckBox Content="CheckBox" HorizontalAlignment="Left" Margin="305,99,0,0" VerticalAlignment="Top"/>
+            <RadioButton Content="学生" GroupName="g" IsChecked="True"  HorizontalAlignment="Left" Margin="92,128,0,0" VerticalAlignment="Top"/>
+            <RadioButton Content="老师" GroupName="g" HorizontalAlignment="Left" Margin="210,128,0,0" VerticalAlignment="Top"/>
+            <RadioButton Content="管理" GroupName="a" HorizontalAlignment="Left" Margin="344,125,0,0" VerticalAlignment="Top"/>
+            <Image Name="img" HorizontalAlignment="Left" Height="81" Margin="594,32,0,0" VerticalAlignment="Top" Width="116"  Stretch="Fill"/>
+            <Slider Name="sd01" HorizontalAlignment="Left" Margin="94,159,0,0" VerticalAlignment="Top" Width="33" Minimum="1" Maximum="100" Value="45" TickPlacement="TopLeft" IsSelectionRangeEnabled="True" SelectionStart="10" SelectionEnd="60" Orientation="Vertical" TickFrequency="5" Height="93" IsDirectionReversed="True"/>
+            <TextBlock HorizontalAlignment="Left" Margin="305,175,0,0" TextWrapping="Wrap" Text="TextBlock" FontSize="{Binding ElementName=sd01,Path=Value}" VerticalAlignment="Top" RenderTransformOrigin="0.812,0.645" Height="18" Width="62"/>
+            <ProgressBar Name="pbar" HorizontalAlignment="Left" Height="16" Margin="152,220,0,0" VerticalAlignment="Top" Width="180" Value="0" Minimum="0" Maximum="100"/>
+
+        </Grid>
+
+    </Border>
+
+</Window>

@@ -1,0 +1,30 @@
+今日内容：WPF控件串讲02
+
+1.从GroupBox控件——DataGrid控件：ListView   DataGrid
+   GroupBox Expander Frame  TabControl ComboBox ListBox ListView  DataGrid
+   Rectangle Ellipse Polygon Path 
+2.第13次作业布置
+3.下周录制学习任务安排：
+    从Menu控件——RichTextBox控件学习（看官网上的录制合集，边看边操作学习）
+    
+
+
+
+
+
+
+ 
+    
+     
+   
+
+
+
+
+
+
+
+
+
+
+

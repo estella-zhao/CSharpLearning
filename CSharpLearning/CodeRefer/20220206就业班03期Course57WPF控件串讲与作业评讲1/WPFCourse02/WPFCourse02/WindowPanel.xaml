@@ -1,0 +1,18 @@
+﻿<Window x:Class="WPFCourse02.WindowPanel"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFCourse02"
+        mc:Ignorable="d"
+        Title="WindowPanel" Height="382.999" Width="832.032">
+    <Grid>
+        <Canvas >
+            <Button Content="Button" Canvas.Left="75" Canvas.Top="73" Width="75" />
+            <Button Content="Button" Canvas.Top="73" Width="75" Canvas.Right="200"/>
+            <Button Content="Button" Canvas.Left="96" Canvas.Bottom="130" Width="75"/>
+            <Button Content="Button" Canvas.Right="272" Canvas.Bottom="116" Width="75"/>
+
+        </Canvas>
+    </Grid>
+</Window>

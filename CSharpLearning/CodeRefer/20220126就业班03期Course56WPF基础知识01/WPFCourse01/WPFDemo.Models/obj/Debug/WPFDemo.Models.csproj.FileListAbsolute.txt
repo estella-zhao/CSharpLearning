@@ -1,0 +1,6 @@
+D:\工作\基础班Vip03\Winform+WPF+上位机直播第三期\20220126就业班03期Course56WPF基础知识01\WPFCourse01\WPFDemo.Models\bin\Debug\WPFDemo.Models.dll
+D:\工作\基础班Vip03\Winform+WPF+上位机直播第三期\20220126就业班03期Course56WPF基础知识01\WPFCourse01\WPFDemo.Models\bin\Debug\WPFDemo.Models.pdb
+D:\工作\基础班Vip03\Winform+WPF+上位机直播第三期\20220126就业班03期Course56WPF基础知识01\WPFCourse01\WPFDemo.Models\obj\Debug\WPFDemo.Models.csproj.AssemblyReference.cache
+D:\工作\基础班Vip03\Winform+WPF+上位机直播第三期\20220126就业班03期Course56WPF基础知识01\WPFCourse01\WPFDemo.Models\obj\Debug\WPFDemo.Models.csproj.CoreCompileInputs.cache
+D:\工作\基础班Vip03\Winform+WPF+上位机直播第三期\20220126就业班03期Course56WPF基础知识01\WPFCourse01\WPFDemo.Models\obj\Debug\WPFDemo.Models.dll
+D:\工作\基础班Vip03\Winform+WPF+上位机直播第三期\20220126就业班03期Course56WPF基础知识01\WPFCourse01\WPFDemo.Models\obj\Debug\WPFDemo.Models.pdb

@@ -1,0 +1,63 @@
+﻿<Window x:Class="WPFCourse03.DataGridWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFCourse03"
+        mc:Ignorable="d"
+        Title="DataGridWindow" Height="450" Width="800" Loaded="Window_Loaded">
+    <Grid>
+        <DataGrid Height="285" Margin="52,39,0,0" VerticalAlignment="Top" Width="638"
+               Name="dgList" AutoGenerateColumns="False" CanUserAddRows="False" IsReadOnly="False" VerticalScrollBarVisibility="Auto" GridLinesVisibility="None" HorizontalScrollBarVisibility="Auto" AlternationCount="2" HeadersVisibility="Column" Background="White" BorderBrush="Purple" BorderThickness="1" ColumnHeaderHeight="30" RowHeaderWidth="30" RowHeight="30" SelectionUnit="Cell" SelectionMode="Single" VerticalContentAlignment="Center" HorizontalAlignment="Center" >
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="学号" Binding="{Binding StuId}" Width="50" IsReadOnly="True">
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="VerticalAlignment" Value="Center"/>
+                            <Setter Property="Foreground" Value="Red" />
+                            <Setter Property="FontWeight" Value="Bold" />
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+                <DataGridTextColumn Header="姓名" Binding="{Binding StuName}" Width="80">
+                    <DataGridTextColumn.EditingElementStyle>
+                        <Style TargetType="TextBox">
+                            <Setter Property="VerticalAlignment" Value="Stretch"/>
+                            <Setter Property="VerticalContentAlignment" Value="Center"/>
+                            <Setter Property="Foreground" Value="Blue"/>
+                        </Style>
+                    </DataGridTextColumn.EditingElementStyle>
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="VerticalAlignment" Value="Center"/>
+                            <Setter Property="Foreground" Value="Green"/>
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+                <DataGridComboBoxColumn x:Name="colClasses" Header="班级" SelectedValueBinding="{Binding ClassId}" Width="100" DisplayMemberPath="ClassName" SelectedValuePath="ClassId" />
+                <DataGridCheckBoxColumn Header="性别" Binding="{Binding IsMale}" Width="50"/>
+                <DataGridTemplateColumn Header="电话" Width="150">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Label Content="{Binding Phone}" />
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                    <DataGridTemplateColumn.CellEditingTemplate>
+                        <DataTemplate>
+                            <TextBox Text="{Binding Phone}" />
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellEditingTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Header="修改" Width="150">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Name="btnEdit"  Content="修改"  Tag="{Binding StuId}"  Width="60" Click="btnEdit_Click"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+
+    </Grid>
+</Window>
