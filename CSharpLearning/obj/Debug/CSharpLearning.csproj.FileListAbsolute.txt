@@ -1,0 +1,7 @@
+C:\Users\njitzh\source\repos\CSharpLearning\CSharpLearning\bin\Debug\CSharpLearning.exe.config
+C:\Users\njitzh\source\repos\CSharpLearning\CSharpLearning\bin\Debug\CSharpLearning.exe
+C:\Users\njitzh\source\repos\CSharpLearning\CSharpLearning\bin\Debug\CSharpLearning.pdb
+C:\Users\njitzh\source\repos\CSharpLearning\CSharpLearning\obj\Debug\CSharpLearning.csproj.AssemblyReference.cache
+C:\Users\njitzh\source\repos\CSharpLearning\CSharpLearning\obj\Debug\CSharpLearning.csproj.CoreCompileInputs.cache
+C:\Users\njitzh\source\repos\CSharpLearning\CSharpLearning\obj\Debug\CSharpLearning.exe
+C:\Users\njitzh\source\repos\CSharpLearning\CSharpLearning\obj\Debug\CSharpLearning.pdb

@@ -43,8 +43,44 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Other\OtherProcedureSetClass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="变量常量\VariableAndConstant.cs" />
+    <Compile Include="数组与异常\ArrayClass.cs" />
+    <Compile Include="数组与异常\ExceptionClass.cs" />
+    <Compile Include="数组与异常\StuDAL.cs" />
+    <Compile Include="数组与异常\Student.cs" />
+    <Compile Include="数组与异常\Students.cs" />
+    <Compile Include="泛型\BaseModel.cs" />
+    <Compile Include="泛型\BaseModelNew.cs" />
+    <Compile Include="泛型\genericClass.cs" />
+    <Compile Include="泛型\IBase.cs" />
+    <Compile Include="泛型\IBaseModel.cs" />
+    <Compile Include="泛型\ModelBase.cs" />
+    <Compile Include="泛型\MyList.cs" />
+    <Compile Include="泛型\NoGenericMethods.cs" />
+    <Compile Include="泛型\StudentInfo.cs" />
+    <Compile Include="泛型\UserInfo.cs" />
+    <Compile Include="类与方法\ClassAndMethod.cs" />
+    <Compile Include="类与方法\Student.cs" />
+    <Compile Include="访问修饰符与继承\AbstractClass.cs" />
+    <Compile Include="访问修饰符与继承\AbstractImp.cs" />
+    <Compile Include="访问修饰符与继承\IPeople.cs" />
+    <Compile Include="访问修饰符与继承\IStudent.cs" />
+    <Compile Include="访问修饰符与继承\MethodsClass.cs" />
+    <Compile Include="访问修饰符与继承\modifierAndExtend.cs" />
+    <Compile Include="访问修饰符与继承\People.cs" />
+    <Compile Include="访问修饰符与继承\SealedClass.cs" />
+    <Compile Include="访问修饰符与继承\Shape\AbstractShape.cs" />
+    <Compile Include="访问修饰符与继承\Shape\RectangleShape.cs" />
+    <Compile Include="访问修饰符与继承\Shape\RectangleAbImp.cs" />
+    <Compile Include="访问修饰符与继承\Shape\ShapeBase.cs" />
+    <Compile Include="访问修饰符与继承\StaticClass.cs" />
+    <Compile Include="访问修饰符与继承\Student.cs" />
+    <Compile Include="访问修饰符与继承\StudentImp.cs" />
+    <Compile Include="选择循环\LoopStruct.cs" />
+    <Compile Include="选择循环\SelectStruct.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
