@@ -43,10 +43,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Linq\ClassInfo.cs" />
+    <Compile Include="Linq\Course.cs" />
+    <Compile Include="Linq\CourseInfo.cs" />
+    <Compile Include="Linq\testLinqClass.cs" />
     <Compile Include="Other\OtherProcedureSetClass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="事件\Student.cs" />
+    <Compile Include="事件\StudyArgs.cs" />
+    <Compile Include="事件\testEventClass.cs" />
+    <Compile Include="反射\testReflection.cs" />
+    <Compile Include="反射\UserInfo.cs" />
     <Compile Include="变量常量\VariableAndConstant.cs" />
+    <Compile Include="委托与Lambda\DelegateClass.cs" />
+    <Compile Include="委托与Lambda\testDelegateClass.cs" />
+    <Compile Include="委托与Lambda\UserInfo.cs" />
     <Compile Include="数组与异常\ArrayClass.cs" />
     <Compile Include="数组与异常\ExceptionClass.cs" />
     <Compile Include="数组与异常\StuDAL.cs" />
@@ -62,6 +74,13 @@
     <Compile Include="泛型\NoGenericMethods.cs" />
     <Compile Include="泛型\StudentInfo.cs" />
     <Compile Include="泛型\UserInfo.cs" />
+    <Compile Include="特性\AttributeHelper.cs" />
+    <Compile Include="特性\CourseInfo.cs" />
+    <Compile Include="特性\CustAttrs\RemarkAttribute.cs" />
+    <Compile Include="特性\CustAttrs\TableAttribute.cs" />
+    <Compile Include="特性\RemarkHelper.cs" />
+    <Compile Include="特性\StringHelper.cs" />
+    <Compile Include="特性\testAttributeClass.cs" />
     <Compile Include="类与方法\ClassAndMethod.cs" />
     <Compile Include="类与方法\Student.cs" />
     <Compile Include="访问修饰符与继承\AbstractClass.cs" />
